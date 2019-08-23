@@ -25,7 +25,7 @@ class XcSidearmSpider(scrapy.Spider):
 
             yield {
                 'date': race.css('.sidearm-schedule-game-opponent-date>span::text').get(),
-                'location': race.css('.sidearm-schedule-game-location>span::text').get(),
-                'descriptor': descriptor,
-                'travellingSchool': response.url
+                'raceLocation': race.css('.sidearm-schedule-game-location>span::text').get(),
+                'raceDescriptor': descriptor,
+                'travellingSchool': response.css('meta[property="og:site_name"]::attr(content)').get() # response.url
             }
