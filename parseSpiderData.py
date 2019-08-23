@@ -10,7 +10,6 @@ with open ('sidearm/races.json') as f:
 race = {"date": "Sep 21 (Sat)", "descriptor": "Western Mustangs", "travellingSchool": "Queen's University Athletics", "location": "London, Ont."}
 
 # we're assuming all dates in this format: Sep 21 (Sat)
-# print race
 date_obj = datetime.strptime(race["date"] + ' ' + str(year), "%b %d (%a) %Y").date()
 
 # we'll bin each race into a 'weekend of the month'. assumptions are the year and that all races occur around a weekend

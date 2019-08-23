@@ -27,5 +27,5 @@ class XcSidearmSpider(scrapy.Spider):
                 'date': race.css('.sidearm-schedule-game-opponent-date>span::text').get(),
                 'raceLocation': race.css('.sidearm-schedule-game-location>span::text').get(),
                 'raceDescriptor': descriptor,
-                'travellingSchool': response.css('meta[property="og:site_name"]::attr(content)').get() # response.url
+                'travellingSchool': response.css('meta[property="og:site_name"]::attr(content)').get()
             }
