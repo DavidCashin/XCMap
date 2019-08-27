@@ -5,7 +5,11 @@ import dateparser
 
 class SidearmCommonSpider(scrapy.Spider):
     name = 'sidearm_common'
-    start_urls = ['https://gogaelsgo.com/schedule.aspx?path=cross',
+    start_urls = ['https://gospartans.ca/schedule.aspx?path=mcross'
+    'https://huskies.usask.ca/schedule.aspx?path=mcross',
+    'https://gothunderbirds.ca/schedule.aspx?path=xc',
+    'https://mcgillathletics.ca/schedule.aspx?path=cross',
+    'https://gogaelsgo.com/schedule.aspx?path=cross',
     'https://varsityblues.ca/schedule.aspx?path=cross',
     'https://athletics.uwaterloo.ca/schedule.aspx?path=mcross',
     'https://westernmustangs.ca/schedule.aspx?path=mcross',
