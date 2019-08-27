@@ -27,13 +27,11 @@ while dt.year == year:
 
 # this nested loop is inefficient, but it works for now and is generic enough
 for race in races_json:
-    date_obj = datetime.strptime(race["date"] + ' ' + str(year), "%b %d (%a) %Y").date()
+    date_obj = datetime.strptime(race["date"], "%Y-%m-%d").date() # assume preformated date YYYY-MM-DD
     race["date"] = date_obj
     for i in weekends:
         days_diff = (weekends[i]["sunday"] - date_obj).days
         if days_diff < 7 and days_diff >=0:
-            # print(weekends[i]["race"])
-            # weekends[i]["race"] = [{'testing': True}]
             weekends[i]["race"].append(race)
 
 pprint.PrettyPrinter(indent=4).pprint(weekends)
