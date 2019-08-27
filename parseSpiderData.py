@@ -4,8 +4,14 @@ from datetime import datetime, date, timedelta
 
 year = 2019
 
-with open ('sidearm/races.json') as f:
+with open('sidearm/sidearm_common.json') as f:
     races_json = json.load(f)
+with open('sidearm/dalhousie_stfx.json') as f:
+    races_json.extend(json.load(f))
+with open('sidearm/geegees.json') as f:
+    races_json.extend(json.load(f))
+with open('sidearm/guelph.json') as f:
+    races_json.extend(json.load(f))
 
 # we'll bin each race into a 'weekend of the month'. assumptions are the year and that all races occur around a weekend
 # we need to figure out date ranges where if a date is in that range, it belongs to a certain weekend
