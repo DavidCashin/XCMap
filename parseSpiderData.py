@@ -27,7 +27,7 @@ while dt.year == year:
 
 # this nested loop is inefficient, but it works for now and is generic enough
 for race in races_json:
-    date_obj = datetime.strptime(race["date"], "%Y-%m-%d").date() # assume preformated date YYYY-MM-DD
+    date_obj = datetime.strptime(race["date"].split(' ')[0], "%Y-%m-%d").date() # assume preformated date YYYY-MM-DD 00:00:00 (dateparser.parse default)
     race["date"] = date_obj
     for i in weekends:
         days_diff = (weekends[i]["sunday"] - date_obj).days
