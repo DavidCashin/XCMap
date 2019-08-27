@@ -2,7 +2,7 @@
 import scrapy
 
 
-class XcSidearmSpider(scrapy.Spider):
+class OUASidearmSpider(scrapy.Spider):
     name = 'xc_sidearm'
     # TODO: some sites have old sidearm versions, don't scrape well
     start_urls = ['https://gogaelsgo.com/schedule.aspx?path=cross',
@@ -12,9 +12,7 @@ class XcSidearmSpider(scrapy.Spider):
     'https://golancers.ca/schedule.aspx?path=cross',
     'https://yorkulions.ca/schedule.aspx?path=xcountry',
     'https://gobadgers.ca/schedule.aspx?path=mcross',
-    # 'http://www.gryphons.ca/schedule.aspx?path=cross'
     'https://marauders.ca/schedule.aspx?path=mcross',
-    # 'https://equipes.geegees.ca/sports/xc/2019-20/schedule'
     ]
 
     def parse(self, response):

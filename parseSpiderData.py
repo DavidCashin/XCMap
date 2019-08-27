@@ -7,11 +7,6 @@ year = 2019
 with open ('sidearm/races.json') as f:
     races_json = json.load(f)
 
-race = {"date": "Sep 21 (Sat)", "descriptor": "Western Mustangs", "travellingSchool": "Queen's University Athletics", "location": "London, Ont."}
-
-# we're assuming all dates in this format: Sep 21 (Sat)
-date_obj = datetime.strptime(race["date"] + ' ' + str(year), "%b %d (%a) %Y").date()
-
 # we'll bin each race into a 'weekend of the month'. assumptions are the year and that all races occur around a weekend
 # we need to figure out date ranges where if a date is in that range, it belongs to a certain weekend
 # example: sept 21 is the race. thats a saturday. Any date between monday (the 16th) and Sunday (22nd) should get pinned to that weekend
