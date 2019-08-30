@@ -5,8 +5,8 @@ import dateparser
 from datetime import datetime, date, timedelta
 import requests
 
-key = ""
-
+with open('data.txt', 'r') as file:
+    key = file.read().replace('\n', '').replace('\r', '')
 
 year = 2019
 
