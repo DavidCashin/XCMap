@@ -1,0 +1,1312 @@
+{
+    "0": {
+        "sunday": "2019-01-06", 
+        "race": []
+    }, 
+    "1": {
+        "sunday": "2019-01-13", 
+        "race": []
+    }, 
+    "2": {
+        "sunday": "2019-01-20", 
+        "race": []
+    }, 
+    "3": {
+        "sunday": "2019-01-27", 
+        "race": []
+    }, 
+    "4": {
+        "sunday": "2019-02-03", 
+        "race": []
+    }, 
+    "5": {
+        "sunday": "2019-02-10", 
+        "race": []
+    }, 
+    "6": {
+        "sunday": "2019-02-17", 
+        "race": []
+    }, 
+    "7": {
+        "sunday": "2019-02-24", 
+        "race": []
+    }, 
+    "8": {
+        "sunday": "2019-03-03", 
+        "race": []
+    }, 
+    "9": {
+        "sunday": "2019-03-10", 
+        "race": []
+    }, 
+    "10": {
+        "sunday": "2019-03-17", 
+        "race": []
+    }, 
+    "11": {
+        "sunday": "2019-03-24", 
+        "race": []
+    }, 
+    "12": {
+        "sunday": "2019-03-31", 
+        "race": []
+    }, 
+    "13": {
+        "sunday": "2019-04-07", 
+        "race": []
+    }, 
+    "14": {
+        "sunday": "2019-04-14", 
+        "race": []
+    }, 
+    "15": {
+        "sunday": "2019-04-21", 
+        "race": []
+    }, 
+    "16": {
+        "sunday": "2019-04-28", 
+        "race": []
+    }, 
+    "17": {
+        "sunday": "2019-05-05", 
+        "race": []
+    }, 
+    "18": {
+        "sunday": "2019-05-12", 
+        "race": []
+    }, 
+    "19": {
+        "sunday": "2019-05-19", 
+        "race": []
+    }, 
+    "20": {
+        "sunday": "2019-05-26", 
+        "race": []
+    }, 
+    "21": {
+        "sunday": "2019-06-02", 
+        "race": []
+    }, 
+    "22": {
+        "sunday": "2019-06-09", 
+        "race": []
+    }, 
+    "23": {
+        "sunday": "2019-06-16", 
+        "race": []
+    }, 
+    "24": {
+        "sunday": "2019-06-23", 
+        "race": []
+    }, 
+    "25": {
+        "sunday": "2019-06-30", 
+        "race": []
+    }, 
+    "26": {
+        "sunday": "2019-07-07", 
+        "race": []
+    }, 
+    "27": {
+        "sunday": "2019-07-14", 
+        "race": []
+    }, 
+    "28": {
+        "sunday": "2019-07-21", 
+        "race": []
+    }, 
+    "29": {
+        "sunday": "2019-07-28", 
+        "race": []
+    }, 
+    "30": {
+        "sunday": "2019-08-04", 
+        "race": []
+    }, 
+    "31": {
+        "sunday": "2019-08-11", 
+        "race": []
+    }, 
+    "32": {
+        "sunday": "2019-08-18", 
+        "race": []
+    }, 
+    "33": {
+        "sunday": "2019-08-25", 
+        "race": []
+    }, 
+    "34": {
+        "sunday": "2019-09-01", 
+        "race": [
+            {
+                "travellingSchool": "University of British Columbia Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 49.26060520000001, 
+                    "lng": -123.2459938
+                }, 
+                "raceLocation": "Vancouver, B.C.", 
+                "date": "2019-08-27", 
+                "raceLocationCoords": {
+                    "lat": 49.2827291, 
+                    "lng": -123.1207375
+                }, 
+                "raceDescriptor": "Open Tryout"
+            }
+        ]
+    }, 
+    "35": {
+        "sunday": "2019-09-08", 
+        "race": [
+            {
+                "travellingSchool": "Western Mustangs Sports", 
+                "travellingSchoolCoords": {
+                    "lat": 43.0095971, 
+                    "lng": -81.2737336
+                }, 
+                "raceLocation": "Gibbons Park", 
+                "date": "2019-09-07", 
+                "raceLocationCoords": {
+                    "lat": 42.9998061, 
+                    "lng": -81.2641202
+                }, 
+                "raceDescriptor": "Purple & White Intrasquad"
+            }, 
+            {
+                "travellingSchool": "The Dalhousie Tigers - Dalhousie University", 
+                "travellingSchoolCoords": {
+                    "lat": 44.63658119999999, 
+                    "lng": -63.59165549999999
+                }, 
+                "raceLocation": "@ DAL (Point Pleasant Park)", 
+                "date": "2019-09-07", 
+                "raceLocationCoords": {
+                    "lat": 44.6232546, 
+                    "lng": -63.5685893
+                }, 
+                "raceDescriptor": "AUS Invitational #1"
+            }, 
+            {
+                "travellingSchool": "St. Francis Xavier University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 45.6179829, 
+                    "lng": -61.9947194
+                }, 
+                "raceLocation": "@ Halifax, NS", 
+                "date": "2019-09-08", 
+                "raceLocationCoords": {
+                    "lat": 44.64876350000001, 
+                    "lng": -63.5752387
+                }, 
+                "raceDescriptor": "DAL/SMU Invitational"
+            }
+        ]
+    }, 
+    "36": {
+        "sunday": "2019-09-15", 
+        "race": [
+            {
+                "travellingSchool": "McGill University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 45.50953010000001, 
+                    "lng": -73.5797932
+                }, 
+                "raceLocation": "Parc Mont Royal (Montreal, QC)", 
+                "date": "2019-09-15", 
+                "raceLocationCoords": {
+                    "lat": 45.5015977, 
+                    "lng": -73.5932345
+                }, 
+                "raceDescriptor": "McGill Open (W: 4k / M: 6k)"
+            }, 
+            {
+                "travellingSchool": "University of Waterloo Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.4722854, 
+                    "lng": -80.5448576
+                }, 
+                "raceLocation": "Buffalo", 
+                "date": "2019-09-13", 
+                "raceLocationCoords": {
+                    "lat": 50.8097212, 
+                    "lng": -110.7002999
+                }, 
+                "raceDescriptor": "University of Buffalo"
+            }, 
+            {
+                "travellingSchool": "McMaster University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.260879, 
+                    "lng": -79.9192254
+                }, 
+                "raceLocation": "Buffalo, NY", 
+                "date": "2019-09-13", 
+                "raceLocationCoords": {
+                    "lat": 42.88644679999999, 
+                    "lng": -78.8783689
+                }, 
+                "raceDescriptor": "UB Stampede"
+            }, 
+            {
+                "travellingSchool": "uOttawa Gee-Gees", 
+                "travellingSchoolCoords": {
+                    "lat": 45.42310639999999, 
+                    "lng": -75.68313289999999
+                }, 
+                "raceLocation": "Park Mont Royal (Montr\u00e9al, QC) ", 
+                "date": "2019-09-13", 
+                "raceLocationCoords": {
+                    "lat": 45.515059, 
+                    "lng": -73.653578
+                }, 
+                "raceDescriptor": "McGill Open"
+            }, 
+            {
+                "travellingSchool": "University of Guelph Gryphons", 
+                "travellingSchoolCoords": {
+                    "lat": 43.5328929, 
+                    "lng": -80.2262444
+                }, 
+                "raceLocation": "University Park, PA", 
+                "date": "2019-09-13", 
+                "raceLocationCoords": {
+                    "lat": 40.7921604, 
+                    "lng": -77.8678345
+                }, 
+                "raceDescriptor": " Spiked Shoe Invitational"
+            }
+        ]
+    }, 
+    "37": {
+        "sunday": "2019-09-22", 
+        "race": [
+            {
+                "travellingSchool": "University of Toronto Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.66281439999999, 
+                    "lng": -79.4012
+                }, 
+                "raceLocation": "London, Ontario", 
+                "date": "2019-09-21", 
+                "raceLocationCoords": {
+                    "lat": 42.9849233, 
+                    "lng": -81.2452768
+                }, 
+                "raceDescriptor": "Bill Slater Western International "
+            }, 
+            {
+                "travellingSchool": "Queen's University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 44.229206, 
+                    "lng": -76.49426900000002
+                }, 
+                "raceLocation": "London, Ont.", 
+                "date": "2019-09-21", 
+                "raceLocationCoords": {
+                    "lat": 42.9849233, 
+                    "lng": -81.2452768
+                }, 
+                "raceDescriptor": "Western Mustangs"
+            }, 
+            {
+                "travellingSchool": "Western Mustangs Sports", 
+                "travellingSchoolCoords": {
+                    "lat": 43.0095971, 
+                    "lng": -81.2737336
+                }, 
+                "raceLocation": "Thames Valley Golf Course", 
+                "date": "2019-09-22", 
+                "raceLocationCoords": {
+                    "lat": 42.9630459, 
+                    "lng": -81.2997099
+                }, 
+                "raceDescriptor": "Bill Salter Western International"
+            }, 
+            {
+                "travellingSchool": "McGill University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 45.50953010000001, 
+                    "lng": -73.5797932
+                }, 
+                "raceLocation": "Plains of Abraham (Qu\u00e9bec City, QC)", 
+                "date": "2019-09-22", 
+                "raceLocationCoords": {
+                    "lat": 46.8015014, 
+                    "lng": -71.2173968
+                }, 
+                "raceDescriptor": "Laval Invitational (W: 6k / M: 8k)"
+            }, 
+            {
+                "travellingSchool": "University of Waterloo Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.4722854, 
+                    "lng": -80.5448576
+                }, 
+                "raceLocation": "Thames Valley Golf Course", 
+                "date": "2019-09-21", 
+                "raceLocationCoords": {
+                    "lat": 42.9630459, 
+                    "lng": -81.2997099
+                }, 
+                "raceDescriptor": "Western International"
+            }, 
+            {
+                "travellingSchool": "University of Windsor Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 42.2989705, 
+                    "lng": -83.0613372
+                }, 
+                "raceLocation": "London, ON", 
+                "date": "2019-09-21", 
+                "raceLocationCoords": {
+                    "lat": 42.9849233, 
+                    "lng": -81.2452768
+                }, 
+                "raceDescriptor": "Bill Salter Invitational"
+            }, 
+            {
+                "travellingSchool": "McMaster University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.260879, 
+                    "lng": -79.9192254
+                }, 
+                "raceLocation": "London, ON", 
+                "date": "2019-09-21", 
+                "raceLocationCoords": {
+                    "lat": 42.9849233, 
+                    "lng": -81.2452768
+                }, 
+                "raceDescriptor": "Bill Salter Western International"
+            }, 
+            {
+                "travellingSchool": "Brock University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.1175731, 
+                    "lng": -79.2476925
+                }, 
+                "raceLocation": "London, Ont", 
+                "date": "2019-09-21", 
+                "raceLocationCoords": {
+                    "lat": 42.9849233, 
+                    "lng": -81.2452768
+                }, 
+                "raceDescriptor": "Bill Slater Western International"
+            }, 
+            {
+                "travellingSchool": "York University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.7744977, 
+                    "lng": -79.50959089999999
+                }, 
+                "raceLocation": "Waterloo, Ont.", 
+                "date": "2019-09-20", 
+                "raceLocationCoords": {
+                    "lat": 43.4642578, 
+                    "lng": -80.5204096
+                }, 
+                "raceDescriptor": "Waterloo Warriors"
+            }, 
+            {
+                "travellingSchool": "The Dalhousie Tigers - Dalhousie University", 
+                "travellingSchoolCoords": {
+                    "lat": 44.63658119999999, 
+                    "lng": -63.59165549999999
+                }, 
+                "raceLocation": "@ StFX", 
+                "date": "2019-09-21", 
+                "raceLocationCoords": {
+                    "lat": 45.6179829, 
+                    "lng": -61.9947194
+                }, 
+                "raceDescriptor": "AUS Invitational #2"
+            }, 
+            {
+                "travellingSchool": "St. Francis Xavier University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 45.6179829, 
+                    "lng": -61.9947194
+                }, 
+                "raceLocation": "@ Antigonish, NS", 
+                "date": "2019-09-21", 
+                "raceLocationCoords": {
+                    "lat": 45.62266049999999, 
+                    "lng": -61.9928026
+                }, 
+                "raceDescriptor": "StFX Invitational"
+            }, 
+            {
+                "travellingSchool": "University of Guelph Gryphons", 
+                "travellingSchoolCoords": {
+                    "lat": 43.5328929, 
+                    "lng": -80.2262444
+                }, 
+                "raceLocation": "London, ON", 
+                "date": "2019-09-21", 
+                "raceLocationCoords": {
+                    "lat": 42.9849233, 
+                    "lng": -81.2452768
+                }, 
+                "raceDescriptor": " Bill Salter Invitational"
+            }
+        ]
+    }, 
+    "38": {
+        "sunday": "2019-09-29", 
+        "race": [
+            {
+                "travellingSchool": "McGill University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 45.50953010000001, 
+                    "lng": -73.5797932
+                }, 
+                "raceLocation": "Sherbrooke, Quebec", 
+                "date": "2019-09-29", 
+                "raceLocationCoords": {
+                    "lat": 45.4041718, 
+                    "lng": -71.8929107
+                }, 
+                "raceDescriptor": "Sherbrooke Invitational (W: 6k / M: 8k)"
+            }, 
+            {
+                "travellingSchool": "Western Mustangs Sports", 
+                "travellingSchoolCoords": {
+                    "lat": 43.0095971, 
+                    "lng": -81.2737336
+                }, 
+                "raceLocation": "Lincoln Park", 
+                "date": "2019-09-29", 
+                "raceLocationCoords": {
+                    "lat": 51.0098753, 
+                    "lng": -114.1314717
+                }, 
+                "raceDescriptor": "Loyola Lakefront Invitation"
+            }, 
+            {
+                "travellingSchool": "University of Windsor Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 42.2989705, 
+                    "lng": -83.0613372
+                }, 
+                "raceLocation": "Chicago, IL", 
+                "date": "2019-09-28", 
+                "raceLocationCoords": {
+                    "lat": 41.8971181, 
+                    "lng": -87.62550189999999
+                }, 
+                "raceDescriptor": "Loyola Invitational"
+            }, 
+            {
+                "travellingSchool": "McMaster University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.260879, 
+                    "lng": -79.9192254
+                }, 
+                "raceLocation": "Chicago, IL", 
+                "date": "2019-09-27", 
+                "raceLocationCoords": {
+                    "lat": 41.8971181, 
+                    "lng": -87.62550189999999
+                }, 
+                "raceDescriptor": "Loyola Lakefront Invitational"
+            }, 
+            {
+                "travellingSchool": "York University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.7744977, 
+                    "lng": -79.50959089999999
+                }, 
+                "raceLocation": "London, Ont.", 
+                "date": "2019-09-28", 
+                "raceLocationCoords": {
+                    "lat": 42.9849233, 
+                    "lng": -81.2452768
+                }, 
+                "raceDescriptor": "Western Mustangs"
+            }, 
+            {
+                "travellingSchool": "uOttawa Gee-Gees", 
+                "travellingSchoolCoords": {
+                    "lat": 45.42310639999999, 
+                    "lng": -75.68313289999999
+                }, 
+                "raceLocation": "Sherbrooke ", 
+                "date": "2019-09-28", 
+                "raceLocationCoords": {
+                    "lat": 45.4041718, 
+                    "lng": -71.8929107
+                }, 
+                "raceDescriptor": "Invitation Vert & Or"
+            }
+        ]
+    }, 
+    "39": {
+        "sunday": "2019-10-06", 
+        "race": [
+            {
+                "travellingSchool": "University of Toronto Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.66281439999999, 
+                    "lng": -79.4012
+                }, 
+                "raceLocation": "Bethlehem, PA", 
+                "date": "2019-10-05", 
+                "raceLocationCoords": {
+                    "lat": 40.6527209, 
+                    "lng": -75.42274689999999
+                }, 
+                "raceDescriptor": "Paul Short Invitational"
+            }, 
+            {
+                "travellingSchool": "Queen's University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 44.229206, 
+                    "lng": -76.49426900000002
+                }, 
+                "raceLocation": "Bethlehem, PA", 
+                "date": "2019-10-05", 
+                "raceLocationCoords": {
+                    "lat": 40.6527209, 
+                    "lng": -75.42274689999999
+                }, 
+                "raceDescriptor": "Paul Short Run"
+            }, 
+            {
+                "travellingSchool": "University of Waterloo Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.4722854, 
+                    "lng": -80.5448576
+                }, 
+                "raceLocation": "Waterloo", 
+                "date": "2019-10-05", 
+                "raceLocationCoords": {
+                    "lat": 43.4642578, 
+                    "lng": -80.5204096
+                }, 
+                "raceDescriptor": "Waterloo Don Mills Open"
+            }, 
+            {
+                "travellingSchool": "Brock University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.1175731, 
+                    "lng": -79.2476925
+                }, 
+                "raceLocation": "Waterloo, Ont", 
+                "date": "2019-10-05", 
+                "raceLocationCoords": {
+                    "lat": 43.4642578, 
+                    "lng": -80.5204096
+                }, 
+                "raceDescriptor": "Don Mills Open"
+            }, 
+            {
+                "travellingSchool": "The Dalhousie Tigers - Dalhousie University", 
+                "travellingSchoolCoords": {
+                    "lat": 44.63658119999999, 
+                    "lng": -63.59165549999999
+                }, 
+                "raceLocation": "@ Acadia", 
+                "date": "2019-10-05", 
+                "raceLocationCoords": {
+                    "lat": 46.8112843, 
+                    "lng": -71.2099534
+                }, 
+                "raceDescriptor": "AUS Invitational #3"
+            }, 
+            {
+                "travellingSchool": "St. Francis Xavier University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 45.6179829, 
+                    "lng": -61.9947194
+                }, 
+                "raceLocation": "@ Wolfville, NS", 
+                "date": "2019-10-05", 
+                "raceLocationCoords": {
+                    "lat": 45.0917598, 
+                    "lng": -64.3598354
+                }, 
+                "raceDescriptor": "Acadia Invitational"
+            }, 
+            {
+                "travellingSchool": "uOttawa Gee-Gees", 
+                "travellingSchoolCoords": {
+                    "lat": 45.42310639999999, 
+                    "lng": -75.68313289999999
+                }, 
+                "raceLocation": "Mooney's Bay, Ottawa ", 
+                "date": "2019-10-05", 
+                "raceLocationCoords": {
+                    "lat": 45.36746249999999, 
+                    "lng": -75.6916232
+                }, 
+                "raceDescriptor": "Capital XC Challenge"
+            }, 
+            {
+                "travellingSchool": "University of Guelph Gryphons", 
+                "travellingSchoolCoords": {
+                    "lat": 43.5328929, 
+                    "lng": -80.2262444
+                }, 
+                "raceLocation": "Bethlehem, PA", 
+                "date": "2019-10-05", 
+                "raceLocationCoords": {
+                    "lat": 40.6527209, 
+                    "lng": -75.42274689999999
+                }, 
+                "raceDescriptor": " Paul Short Invitational"
+            }
+        ]
+    }, 
+    "40": {
+        "sunday": "2019-10-13", 
+        "race": [
+            {
+                "travellingSchool": "University of Toronto Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.66281439999999, 
+                    "lng": -79.4012
+                }, 
+                "raceLocation": "Hamilton, Ontario", 
+                "date": "2019-10-11", 
+                "raceLocationCoords": {
+                    "lat": 43.2557206, 
+                    "lng": -79.8711024
+                }, 
+                "raceDescriptor": "Hamilton Bayfront Open"
+            }, 
+            {
+                "travellingSchool": "Queen's University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 44.229206, 
+                    "lng": -76.49426900000002
+                }, 
+                "raceLocation": "Montreal, Que.", 
+                "date": "2019-10-12", 
+                "raceLocationCoords": {
+                    "lat": 45.5016889, 
+                    "lng": -73.567256
+                }, 
+                "raceDescriptor": "RSEQ/AUS Interlock"
+            }, 
+            {
+                "travellingSchool": "McGill University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 45.50953010000001, 
+                    "lng": -73.5797932
+                }, 
+                "raceLocation": "Carleton (Ottawa, ON)", 
+                "date": "2019-10-13", 
+                "raceLocationCoords": {
+                    "lat": 45.3875812, 
+                    "lng": -75.69602019999999
+                }, 
+                "raceDescriptor": "Jim Howe Memorial Race (Capital Challenge; W: 6k / M: 6k)"
+            }, 
+            {
+                "travellingSchool": "Western Mustangs Sports", 
+                "travellingSchoolCoords": {
+                    "lat": 43.0095971, 
+                    "lng": -81.2737336
+                }, 
+                "raceLocation": "Bayfront Park", 
+                "date": "2019-10-12", 
+                "raceLocationCoords": {
+                    "lat": 43.27156979999999, 
+                    "lng": -79.8723837
+                }, 
+                "raceDescriptor": "Marauder Bayfront Open"
+            }, 
+            {
+                "travellingSchool": "University of Waterloo Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.4722854, 
+                    "lng": -80.5448576
+                }, 
+                "raceLocation": "Bayfront Area", 
+                "date": "2019-10-11", 
+                "raceLocationCoords": {
+                    "lat": 43.27156979999999, 
+                    "lng": -79.8723837
+                }, 
+                "raceDescriptor": "McMaster Open"
+            }, 
+            {
+                "travellingSchool": "University of Windsor Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 42.2989705, 
+                    "lng": -83.0613372
+                }, 
+                "raceLocation": "Hamilton, ON", 
+                "date": "2019-10-11", 
+                "raceLocationCoords": {
+                    "lat": 43.2557206, 
+                    "lng": -79.8711024
+                }, 
+                "raceDescriptor": "Marauders Bayfront Open"
+            }, 
+            {
+                "travellingSchool": "McMaster University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.260879, 
+                    "lng": -79.9192254
+                }, 
+                "raceLocation": "Hamilton, ON", 
+                "date": "2019-10-11", 
+                "raceLocationCoords": {
+                    "lat": 43.2557206, 
+                    "lng": -79.8711024
+                }, 
+                "raceDescriptor": "Marauders Bayfront Open"
+            }, 
+            {
+                "travellingSchool": "Brock University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.1175731, 
+                    "lng": -79.2476925
+                }, 
+                "raceLocation": "Hamilton, Ont", 
+                "date": "2019-10-11", 
+                "raceLocationCoords": {
+                    "lat": 43.2557206, 
+                    "lng": -79.8711024
+                }, 
+                "raceDescriptor": "Marauder Bayfront Open"
+            }, 
+            {
+                "travellingSchool": "York University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.7744977, 
+                    "lng": -79.50959089999999
+                }, 
+                "raceLocation": "Hamilton, Ont.", 
+                "date": "2019-10-11", 
+                "raceLocationCoords": {
+                    "lat": 43.2557206, 
+                    "lng": -79.8711024
+                }, 
+                "raceDescriptor": "McMaster Marauders"
+            }, 
+            {
+                "travellingSchool": "The Dalhousie Tigers - Dalhousie University", 
+                "travellingSchoolCoords": {
+                    "lat": 44.63658119999999, 
+                    "lng": -63.59165549999999
+                }, 
+                "raceLocation": "@ UPEI", 
+                "date": "2019-10-12", 
+                "raceLocationCoords": {
+                    "lat": 46.257492, 
+                    "lng": -63.1375074
+                }, 
+                "raceDescriptor": "AUS/RSEQ Interlock"
+            }, 
+            {
+                "travellingSchool": "St. Francis Xavier University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 45.6179829, 
+                    "lng": -61.9947194
+                }, 
+                "raceLocation": "@ Charlottetown, PE", 
+                "date": "2019-10-12", 
+                "raceLocationCoords": {
+                    "lat": 46.23824, 
+                    "lng": -63.13107040000001
+                }, 
+                "raceDescriptor": "UPEI Interlock Invitational"
+            }, 
+            {
+                "travellingSchool": "uOttawa Gee-Gees", 
+                "travellingSchoolCoords": {
+                    "lat": 45.42310639999999, 
+                    "lng": -75.68313289999999
+                }, 
+                "raceLocation": "St. Lawrence University (Canton, NY) ", 
+                "date": "2019-10-12", 
+                "raceLocationCoords": {
+                    "lat": 44.5892119, 
+                    "lng": -75.1608814
+                }, 
+                "raceDescriptor": "Hoffman Invitational"
+            }
+        ]
+    }, 
+    "41": {
+        "sunday": "2019-10-20", 
+        "race": [
+            {
+                "travellingSchool": "University of Waterloo Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.4722854, 
+                    "lng": -80.5448576
+                }, 
+                "raceLocation": "Brock University", 
+                "date": "2019-10-19", 
+                "raceLocationCoords": {
+                    "lat": 43.1175731, 
+                    "lng": -79.2476925
+                }, 
+                "raceDescriptor": "Brock Open"
+            }, 
+            {
+                "travellingSchool": "University of Windsor Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 42.2989705, 
+                    "lng": -83.0613372
+                }, 
+                "raceLocation": "Dexter, MI", 
+                "date": "2019-10-18", 
+                "raceLocationCoords": {
+                    "lat": 42.32176159999999, 
+                    "lng": -83.8781207
+                }, 
+                "raceDescriptor": "Emu Fall Classic"
+            }, 
+            {
+                "travellingSchool": "University of Guelph Gryphons", 
+                "travellingSchoolCoords": {
+                    "lat": 43.5328929, 
+                    "lng": -80.2262444
+                }, 
+                "raceLocation": "Guelph, ON", 
+                "date": "2019-10-18", 
+                "raceLocationCoords": {
+                    "lat": 43.5448048, 
+                    "lng": -80.24816659999999
+                }, 
+                "raceDescriptor": "Vic Matthews Invitational"
+            }
+        ]
+    }, 
+    "42": {
+        "sunday": "2019-10-27", 
+        "race": [
+            {
+                "travellingSchool": "University of Toronto Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.66281439999999, 
+                    "lng": -79.4012
+                }, 
+                "raceLocation": "Hamilton, Ontario", 
+                "date": "2019-10-26", 
+                "raceLocationCoords": {
+                    "lat": 43.2557206, 
+                    "lng": -79.8711024
+                }, 
+                "raceDescriptor": "OUA Championships"
+            }, 
+            {
+                "travellingSchool": "University of British Columbia Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 49.26060520000001, 
+                    "lng": -123.2459938
+                }, 
+                "raceLocation": "Calgary, Alta.", 
+                "date": "2019-10-26", 
+                "raceLocationCoords": {
+                    "lat": 51.04473309999999, 
+                    "lng": -114.0718831
+                }, 
+                "raceDescriptor": "Canada West Championships"
+            }, 
+            {
+                "travellingSchool": "Queen's University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 44.229206, 
+                    "lng": -76.49426900000002
+                }, 
+                "raceLocation": "Hamilton, Ont.", 
+                "date": "2019-10-26", 
+                "raceLocationCoords": {
+                    "lat": 43.2557206, 
+                    "lng": -79.8711024
+                }, 
+                "raceDescriptor": "OUA Championship"
+            }, 
+            {
+                "travellingSchool": "McGill University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 45.50953010000001, 
+                    "lng": -73.5797932
+                }, 
+                "raceLocation": "Parc Maisonneuve (Montr\u00e9al, QC)", 
+                "date": "2019-10-27", 
+                "raceLocationCoords": {
+                    "lat": 45.56394, 
+                    "lng": -73.5574793
+                }, 
+                "raceDescriptor": "RSEQ Championship (W: 8k / M: 10k)"
+            }, 
+            {
+                "travellingSchool": "Western Mustangs Sports", 
+                "travellingSchoolCoords": {
+                    "lat": 43.0095971, 
+                    "lng": -81.2737336
+                }, 
+                "raceLocation": "Thames Valley Golf Course", 
+                "date": "2019-10-27", 
+                "raceLocationCoords": {
+                    "lat": 42.9630459, 
+                    "lng": -81.2997099
+                }, 
+                "raceDescriptor": "OUA Conference Championships"
+            }, 
+            {
+                "travellingSchool": "University of Waterloo Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.4722854, 
+                    "lng": -80.5448576
+                }, 
+                "raceLocation": "Bayfront Area", 
+                "date": "2019-10-25", 
+                "raceLocationCoords": {
+                    "lat": 43.27156979999999, 
+                    "lng": -79.8723837
+                }, 
+                "raceDescriptor": "OUA Championship"
+            }, 
+            {
+                "travellingSchool": "University of Windsor Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 42.2989705, 
+                    "lng": -83.0613372
+                }, 
+                "raceLocation": "Hamilton, ON", 
+                "date": "2019-10-26", 
+                "raceLocationCoords": {
+                    "lat": 43.2557206, 
+                    "lng": -79.8711024
+                }, 
+                "raceDescriptor": "OUA Championships"
+            }, 
+            {
+                "travellingSchool": "McMaster University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.260879, 
+                    "lng": -79.9192254
+                }, 
+                "raceLocation": "Hamilton, ON", 
+                "date": "2019-10-26", 
+                "raceLocationCoords": {
+                    "lat": 43.2557206, 
+                    "lng": -79.8711024
+                }, 
+                "raceDescriptor": "OUA Championships"
+            }, 
+            {
+                "travellingSchool": "Brock University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.1175731, 
+                    "lng": -79.2476925
+                }, 
+                "raceLocation": "Hamilton, Ont / Bayfront Park", 
+                "date": "2019-10-26", 
+                "raceLocationCoords": {
+                    "lat": 43.27156979999999, 
+                    "lng": -79.8723837
+                }, 
+                "raceDescriptor": "OUA Championships"
+            }, 
+            {
+                "travellingSchool": "York University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.7744977, 
+                    "lng": -79.50959089999999
+                }, 
+                "raceLocation": "Hamilton, Ont.", 
+                "date": "2019-10-26", 
+                "raceLocationCoords": {
+                    "lat": 43.2557206, 
+                    "lng": -79.8711024
+                }, 
+                "raceDescriptor": "OUA Championships"
+            }, 
+            {
+                "travellingSchool": "The Dalhousie Tigers - Dalhousie University", 
+                "travellingSchoolCoords": {
+                    "lat": 44.63658119999999, 
+                    "lng": -63.59165549999999
+                }, 
+                "raceLocation": "@ UNB", 
+                "date": "2019-10-26", 
+                "raceLocationCoords": {
+                    "lat": 45.9462097, 
+                    "lng": -66.64304589999999
+                }, 
+                "raceDescriptor": "Subway AUS Championships"
+            }, 
+            {
+                "travellingSchool": "St. Francis Xavier University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 45.6179829, 
+                    "lng": -61.9947194
+                }, 
+                "raceLocation": "@ Fredericton, NB", 
+                "date": "2019-10-26", 
+                "raceLocationCoords": {
+                    "lat": 45.9635895, 
+                    "lng": -66.6431151
+                }, 
+                "raceDescriptor": "AUS Championship"
+            }, 
+            {
+                "travellingSchool": "uOttawa Gee-Gees", 
+                "travellingSchoolCoords": {
+                    "lat": 45.42310639999999, 
+                    "lng": -75.68313289999999
+                }, 
+                "raceLocation": "Plaines d'Abraham (Qu\u00e9bec, QC) ", 
+                "date": "2019-10-26", 
+                "raceLocationCoords": {
+                    "lat": 46.8015014, 
+                    "lng": -71.2173968
+                }, 
+                "raceDescriptor": "Championnat du RSEQ"
+            }, 
+            {
+                "travellingSchool": "University of Guelph Gryphons", 
+                "travellingSchoolCoords": {
+                    "lat": 43.5328929, 
+                    "lng": -80.2262444
+                }, 
+                "raceLocation": "Hamilton, ON", 
+                "date": "2019-10-26", 
+                "raceLocationCoords": {
+                    "lat": 43.2557206, 
+                    "lng": -79.8711024
+                }, 
+                "raceDescriptor": "OUA Championship"
+            }
+        ]
+    }, 
+    "43": {
+        "sunday": "2019-11-03", 
+        "race": []
+    }, 
+    "44": {
+        "sunday": "2019-11-10", 
+        "race": [
+            {
+                "travellingSchool": "University of Toronto Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.66281439999999, 
+                    "lng": -79.4012
+                }, 
+                "raceLocation": "Kingston, Ontario", 
+                "date": "2019-11-09", 
+                "raceLocationCoords": {
+                    "lat": 44.2311717, 
+                    "lng": -76.4859544
+                }, 
+                "raceDescriptor": "U SPORTS Championships"
+            }, 
+            {
+                "travellingSchool": "University of British Columbia Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 49.26060520000001, 
+                    "lng": -123.2459938
+                }, 
+                "raceLocation": "Kingston, Ont.", 
+                "date": "2019-11-09", 
+                "raceLocationCoords": {
+                    "lat": 44.2311717, 
+                    "lng": -76.4859544
+                }, 
+                "raceDescriptor": "U SPORTS Cross Country Championships"
+            }, 
+            {
+                "travellingSchool": "Queen's University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 44.229206, 
+                    "lng": -76.49426900000002
+                }, 
+                "raceLocation": "Kingston, Ont.", 
+                "date": "2019-11-09", 
+                "raceLocationCoords": {
+                    "lat": 44.2311717, 
+                    "lng": -76.4859544
+                }, 
+                "raceDescriptor": "U SPORTS Championship"
+            }, 
+            {
+                "travellingSchool": "McGill University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 45.50953010000001, 
+                    "lng": -73.5797932
+                }, 
+                "raceLocation": "Kingston, Ontario", 
+                "date": "2019-11-10", 
+                "raceLocationCoords": {
+                    "lat": 44.2311717, 
+                    "lng": -76.4859544
+                }, 
+                "raceDescriptor": "U SPORTS Championship (@ Queen's; W: 8k / M: 10k)"
+            }, 
+            {
+                "travellingSchool": "Western Mustangs Sports", 
+                "travellingSchoolCoords": {
+                    "lat": 43.0095971, 
+                    "lng": -81.2737336
+                }, 
+                "raceLocation": "Fort Henry Hill", 
+                "date": "2019-11-10", 
+                "raceLocationCoords": {
+                    "lat": 44.2330393, 
+                    "lng": -76.46111259999999
+                }, 
+                "raceDescriptor": "U SPORTS National Championships"
+            }, 
+            {
+                "travellingSchool": "University of Waterloo Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.4722854, 
+                    "lng": -80.5448576
+                }, 
+                "raceLocation": "Kingston", 
+                "date": "2019-11-07", 
+                "raceLocationCoords": {
+                    "lat": 44.2311717, 
+                    "lng": -76.4859544
+                }, 
+                "raceDescriptor": "U SPORTS Championship"
+            }, 
+            {
+                "travellingSchool": "University of Windsor Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 42.2989705, 
+                    "lng": -83.0613372
+                }, 
+                "raceLocation": "Kingston, ON", 
+                "date": "2019-11-09", 
+                "raceLocationCoords": {
+                    "lat": 44.2311717, 
+                    "lng": -76.4859544
+                }, 
+                "raceDescriptor": "U Sports Championships"
+            }, 
+            {
+                "travellingSchool": "McMaster University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.260879, 
+                    "lng": -79.9192254
+                }, 
+                "raceLocation": "Kingston, ON", 
+                "date": "2019-11-08", 
+                "raceLocationCoords": {
+                    "lat": 44.2311717, 
+                    "lng": -76.4859544
+                }, 
+                "raceDescriptor": "U SPORTS Championships"
+            }, 
+            {
+                "travellingSchool": "Brock University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.1175731, 
+                    "lng": -79.2476925
+                }, 
+                "raceLocation": "Queen's University", 
+                "date": "2019-11-09", 
+                "raceLocationCoords": {
+                    "lat": 44.2252795, 
+                    "lng": -76.49514119999999
+                }, 
+                "raceDescriptor": "U SPORTS Championships"
+            }, 
+            {
+                "travellingSchool": "York University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 43.7744977, 
+                    "lng": -79.50959089999999
+                }, 
+                "raceLocation": "Kingston, Ont.", 
+                "date": "2019-11-09", 
+                "raceLocationCoords": {
+                    "lat": 44.2311717, 
+                    "lng": -76.4859544
+                }, 
+                "raceDescriptor": "U SPORTS Championships"
+            }, 
+            {
+                "travellingSchool": "The Dalhousie Tigers - Dalhousie University", 
+                "travellingSchoolCoords": {
+                    "lat": 44.63658119999999, 
+                    "lng": -63.59165549999999
+                }, 
+                "raceLocation": "@ Queen's", 
+                "date": "2019-11-09", 
+                "raceLocationCoords": {
+                    "lat": 44.2252795, 
+                    "lng": -76.49514119999999
+                }, 
+                "raceDescriptor": "U SPORTS Championships"
+            }, 
+            {
+                "travellingSchool": "St. Francis Xavier University Athletics", 
+                "travellingSchoolCoords": {
+                    "lat": 45.6179829, 
+                    "lng": -61.9947194
+                }, 
+                "raceLocation": "@ Kingston, ON", 
+                "date": "2019-11-09", 
+                "raceLocationCoords": {
+                    "lat": 44.2311717, 
+                    "lng": -76.4859544
+                }, 
+                "raceDescriptor": "U SPORTS Championship"
+            }, 
+            {
+                "travellingSchool": "uOttawa Gee-Gees", 
+                "travellingSchoolCoords": {
+                    "lat": 45.42310639999999, 
+                    "lng": -75.68313289999999
+                }, 
+                "raceLocation": "Fort Henry (Kingston, Ont.) ", 
+                "date": "2019-11-09", 
+                "raceLocationCoords": {
+                    "lat": 44.2309431, 
+                    "lng": -76.4598731
+                }, 
+                "raceDescriptor": "Championnat national U SPORTS"
+            }, 
+            {
+                "travellingSchool": "University of Guelph Gryphons", 
+                "travellingSchoolCoords": {
+                    "lat": 43.5328929, 
+                    "lng": -80.2262444
+                }, 
+                "raceLocation": "Kingston, ON", 
+                "date": "2019-11-09", 
+                "raceLocationCoords": {
+                    "lat": 44.2311717, 
+                    "lng": -76.4859544
+                }, 
+                "raceDescriptor": "U SPORTS Championship"
+            }
+        ]
+    }, 
+    "45": {
+        "sunday": "2019-11-17", 
+        "race": []
+    }, 
+    "46": {
+        "sunday": "2019-11-24", 
+        "race": []
+    }, 
+    "47": {
+        "sunday": "2019-12-01", 
+        "race": []
+    }, 
+    "48": {
+        "sunday": "2019-12-08", 
+        "race": []
+    }, 
+    "49": {
+        "sunday": "2019-12-15", 
+        "race": []
+    }, 
+    "50": {
+        "sunday": "2019-12-22", 
+        "race": []
+    }, 
+    "51": {
+        "sunday": "2019-12-29", 
+        "race": []
+    }
+}
