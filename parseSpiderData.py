@@ -5,7 +5,7 @@ import dateparser
 from datetime import datetime, date, timedelta
 import requests
 
-key = "AIzaSyD9UJd-nj1SAyv67plbhzaRE3qXyq5sPWI"
+key = ""
 
 
 year = 2019
