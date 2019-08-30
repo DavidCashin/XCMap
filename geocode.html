@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Geocoding Service</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+      #map {
+        height: 100%;
+      }
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+</script>
+<script 
+src="https://maps.googleapis.com/maps/api/js?key=get_your own key, thief">
+</script>
+  <body>
+    <div id="map"></div>
+    <script>
+      var image = {
+        url: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+        // This marker is 20 pixels wide by 32 pixels high.
+        size: new google.maps.Size(20, 32),
+        // The origin for this image is (0, 0).
+        origin: new google.maps.Point(0, 0),
+        // The anchor for this image is the base of the flagpole at (0, 32).
+        anchor: new google.maps.Point(0, 32)
+      };
+      var race;
+      var map;
+
+      $.getJSON('/weekendRaceSchedules.json', function(data) {
+        // raceWeekendRaces = data[44].race
+        for ( i in data[44].race) { // take a sample weekend (the 44th weekend is CIS)
+
+          placeMarker(data[44].race[i]);
+        }
+        
+      });
+
+      /*
+      Takes an object such as:
+      {
+          "travellingSchool": "The Dalhousie Tigers - Dalhousie University", 
+          "travellingSchoolCoords": {
+              "lat": 44.63658119999999, 
+              "lng": -63.59165549999999
+          }, 
+          "raceLocation": "@ UPEI", 
+          "date": "2019-10-12", 
+          "raceLocationCoords": {
+              "lat": 46.257492, 
+              "lng": -63.1375074
+          }, 
+          "raceDescriptor": "AUS/RSEQ Interlock"
+      }
+      */
+      function placeMarker(raceWeekendRaces) {
+        var travellingSchoolPosition = {lat: raceWeekendRaces.travellingSchoolCoords.lat, lng: raceWeekendRaces.travellingSchoolCoords.lng};
+        var raceLocationPosition = {lat: raceWeekendRaces.raceLocationCoords.lat, lng: raceWeekendRaces.raceLocationCoords.lng};
+        var travellingSchool = new google.maps.Marker({
+            map: map,
+            position: travellingSchoolPosition,
+            icon: image
+        });
+
+        // var raceLocation = new google.maps.Marker({
+        //     map: map,
+        //     position: raceLocationPosition
+        // });
+        var lineSymbol = {
+          path: 'M 1 1 L 3 1 L 2 -3 z',
+          strokeOpacity: 1,
+          scale: 4
+        };
+
+        var line= new google.maps.Polyline({
+          path: [new google.maps.LatLng(travellingSchoolPosition.lat, travellingSchoolPosition.lng), 
+                  new google.maps.LatLng(raceLocationPosition.lat, raceLocationPosition.lng)],
+          icons: [{
+            // icon: {path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW}
+          //   icon: lineSymbol,
+          //   offset: '0',
+          //   repeat: '50px'
+            }
+          ],
+        });
+
+        line.setMap(map);
+      }
+
+      function geocodeAddress(geocoder, resultsMap) {
+        geocoder.geocode({'address': 'Canada'}, function(results, status) {
+          if (status === 'OK') {
+            resultsMap.setCenter(results[0].geometry.location);
+          } else {
+            alert('Geocode was not successful for the following reason: ' + status);
+          }
+        });
+      }
+      var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4
+        });
+      var geocoder = new google.maps.Geocoder();
+      geocodeAddress(geocoder, map);
+
+     
+      
+
+    </script>
+  </body>
+</html>
