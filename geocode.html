@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <style>
       #map {
-        height: 100%;
+        height: 90%;
       }
       html, body {
         height: 100%;
@@ -21,30 +21,61 @@
   crossorigin="anonymous"></script>
 </script>
 <script 
-src="https://maps.googleapis.com/maps/api/js?key=get_your own key, thief">
+src="https://maps.googleapis.com/maps/api/js?key=">
 </script>
   <body>
+    <div id="clean"><button onclick=initMap()>clean</button></div>
+    <div id="weekends"></div>
     <div id="map"></div>
     <script>
+      
       var image = {
         url: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
-        // This marker is 20 pixels wide by 32 pixels high.
         size: new google.maps.Size(20, 32),
-        // The origin for this image is (0, 0).
         origin: new google.maps.Point(0, 0),
-        // The anchor for this image is the base of the flagpole at (0, 32).
         anchor: new google.maps.Point(0, 32)
       };
       var race;
-      var map;
+      var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 4
+          });;
+      var raceData =[] // access same as json data call, ie data[44]
+      var globData;
+
+      // init map
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 4
+          });
+        map.setCenter(new google.maps.LatLng(52.695207, -98.166199)) // center canada
+      }
+      initMap();
+
+      function addMarkers(raceWeekend) {
+        console.log(globData[raceWeekend])
+        for ( i in globData[raceWeekend].race) { // take a sample weekend (the 44th weekend is CIS)
+          console.log('placing')
+          placeMarker(globData[raceWeekend].race[i]);
+        }
+      }
 
       $.getJSON('/weekendRaceSchedules.json', function(data) {
-        // raceWeekendRaces = data[44].race
-        for ( i in data[44].race) { // take a sample weekend (the 44th weekend is CIS)
+        var weekendsDiv = document.getElementById("weekends");
 
-          placeMarker(data[44].race[i]);
+        for (var weekendNum in data) {
+          if(data[weekendNum].race.length > 0) {
+            var weekendBtn = document.createElement('button');
+            weekendBtn.innerHTML = data[weekendNum].race[0].date;
+            weekendBtn.id = "" + weekendNum;
+            weekendsDiv.appendChild(weekendBtn)
+            weekendBtn = null;
+          }
+          globData = data;
         }
-        
+        $( "div#weekends>button" ).click(function(event) {
+          console.log( "Handler for .click() called.")
+          addMarkers(event.target.id);
+        });
       });
 
       /*
@@ -67,53 +98,40 @@ src="https://maps.googleapis.com/maps/api/js?key=get_your own key, thief">
       function placeMarker(raceWeekendRaces) {
         var travellingSchoolPosition = {lat: raceWeekendRaces.travellingSchoolCoords.lat, lng: raceWeekendRaces.travellingSchoolCoords.lng};
         var raceLocationPosition = {lat: raceWeekendRaces.raceLocationCoords.lat, lng: raceWeekendRaces.raceLocationCoords.lng};
+        
         var travellingSchool = new google.maps.Marker({
             map: map,
             position: travellingSchoolPosition,
             icon: image
         });
+        
+        travellingSchool.addListener('click', function(){
+          new google.maps.InfoWindow({
+            content: raceWeekendRaces.travellingSchool
+          }).open(map, travellingSchool);
+        })
 
-        // var raceLocation = new google.maps.Marker({
-        //     map: map,
-        //     position: raceLocationPosition
-        // });
-        var lineSymbol = {
-          path: 'M 1 1 L 3 1 L 2 -3 z',
-          strokeOpacity: 1,
-          scale: 4
-        };
+        var raceLocation = new google.maps.Marker({
+            map: map,
+            position: raceLocationPosition
+        });
+
+        raceLocation.addListener('click', function(){
+          new google.maps.InfoWindow({
+            content: "Race Location: " + raceWeekendRaces.raceDescriptor
+          }).open(map, raceLocation);
+        })
 
         var line= new google.maps.Polyline({
           path: [new google.maps.LatLng(travellingSchoolPosition.lat, travellingSchoolPosition.lng), 
-                  new google.maps.LatLng(raceLocationPosition.lat, raceLocationPosition.lng)],
-          icons: [{
-            // icon: {path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW}
-          //   icon: lineSymbol,
-          //   offset: '0',
-          //   repeat: '50px'
-            }
-          ],
+                  new google.maps.LatLng(raceLocationPosition.lat, raceLocationPosition.lng)]
         });
 
         line.setMap(map);
+
+        return map;
       }
 
-      function geocodeAddress(geocoder, resultsMap) {
-        geocoder.geocode({'address': 'Canada'}, function(results, status) {
-          if (status === 'OK') {
-            resultsMap.setCenter(results[0].geometry.location);
-          } else {
-            alert('Geocode was not successful for the following reason: ' + status);
-          }
-        });
-      }
-      var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4
-        });
-      var geocoder = new google.maps.Geocoder();
-      geocodeAddress(geocoder, map);
-
-     
       
 
     </script>
