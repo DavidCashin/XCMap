@@ -118,7 +118,7 @@ src="https://maps.googleapis.com/maps/api/js?key=">
 
         raceLocation.addListener('click', function(){
           new google.maps.InfoWindow({
-            content: "Race Location: " + raceWeekendRaces.raceDescriptor
+            content: "Race Location: " + raceWeekendRaces.raceDescriptor + "<br>" + (new Date(Date.parse(raceWeekendRaces.date))).toString().split(" ").slice(0,3).join(" ")
           }).open(map, raceLocation);
         })
 
